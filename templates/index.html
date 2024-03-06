@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Credit Card fraud</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+<body>
+    <form class="form" action="{{url_for('predict')}}" method="POST">
+
+    <input type="text" id="Time" name="Time" placeholder="Enter Time">
+    <input type="text" id="Amount" name="Amount"placeholder="Enter Amount">
+    <input type="text" id="Transaction" name="Transaction"placeholder="Enter Transaction">
+  
+    <button type="submit" >Predict</button>
+    
+    </form> 
+
+<p>{{prediction_text}}</p>
+</body>
+</html>
