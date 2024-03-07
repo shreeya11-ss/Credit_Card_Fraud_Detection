@@ -8,16 +8,25 @@
 
 </head>
 <body>
-    <form class="form" action="{{url_for('predict')}}" method="POST">
-
-    <input type="text" id="Time" name="Time" placeholder="Enter Time">
-    <input type="text" id="Amount" name="Amount"placeholder="Enter Amount">
-    <input type="text" id="Transaction" name="Transaction"placeholder="Enter Transaction">
-  
-    <button type="submit" >Predict</button>
+    <div class="hero">
+        <h1>Credit Card Fraud detection</h1>
+    </div>
+    <div>
+        <form class="form" action="{{url_for('predict')}}" method="POST">
+            <div class="input">
+                <input  type="text" id="Time" class="input-box1" name="Time" placeholder="Enter Time">
+                <input type="text" id="Amount" class="input-box2"  name="Amount"placeholder="Enter Amount">
+                <input type="text" id="Transaction" class="input-box3"  name="Transaction"placeholder="Enter Transaction">
+            </div>
+          
+         
+            <button class="button" type="submit" >Predict</button>
+        </form>     
+    </div>
+   
     
-    </form> 
+    
 
-<p>{{prediction_text}}</p>
+<div class="result"><p>{{prediction_text}}</p></div>
 </body>
 </html>

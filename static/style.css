@@ -4,5 +4,89 @@
 }
 body{
     background-color: orange;
+    background-image: url("card.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.hero h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(219, 206, 128);
+    /* align-items: center; */
+    position: absolute;
+    left: 33%;
+    top: 6%;
+    font-size: xxx-large;
+    text-shadow: 2px 2px 15px rgb(12, 9, 9) ;
+}
+.input{
+    display: block;
+    width: 20px;
+    height: 50px;
+    justify-content: space-between;
+
+  
+
+}
+.input-box1{
+    gap: 20px;
+    position: absolute;
+    top: 42%;
+    left: 40%;
+    width: 250px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: rgb(185, 183, 179);
+}
+.input-box2{
+    gap: 20px;
+    position: absolute;
+    top: 52%;
+    left: 40%;
+    width: 250px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: rgb(185, 183, 179);
+    
+}
+.input-box3{
+    gap: 20px;
+    position: absolute;
+    top: 62%;
+    left: 40%;
+    width: 250px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: rgb(185, 183, 179);
+    
+}
+
+::placeholder{
+    padding:15px;
+    font-weight: 200;
+    color: black;
+}
+.button{
+    position: absolute;
+    top:70%;
+    left:45%;
+    display: block;
+    width: 80px;
+    height: 35px;
+    background-color: rgb(236, 166, 25);
+    border-radius: 10px;
+    color: black;
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+.result{
+    display: block;
+    color:white;
+    position: absolute;
+    top: 77%;
+    left:42%;
+    font-size: 24px;
+
 }
 
