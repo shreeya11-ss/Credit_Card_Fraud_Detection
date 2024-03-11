@@ -13,7 +13,6 @@ body{
 .hero h1{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(219, 206, 128);
-    /* align-items: center; */
     position: absolute;
     left: 33%;
     top: 6%;
@@ -25,16 +24,13 @@ body{
     display: block;
     width: 650px;
     height: 450px;
-    /* background-color: #414141; */
     background:linear-gradient(to top,#414141,#000000);
     border-radius: 20px;
-    /* justify-content: space-between; */
     border-style: solid;
     border-color: rgb(37, 37, 34); 
     position: absolute;
     top: 25%;
     left: 30%;
-    /* border-width: 20rem; */
 }
 .dgn{
     display: block;
