@@ -20,6 +20,7 @@ body{
     font-size: xxx-large;
     text-shadow: 2px 2px 15px rgb(12, 9, 9) ;
 }
+
 .input{
     display: block;
     width: 650px;
@@ -31,8 +32,8 @@ body{
     border-style: solid;
     border-color: rgb(37, 37, 34); 
     position: absolute;
-    top: 30%;
-    left: 35%;
+    top: 25%;
+    left: 30%;
     /* border-width: 20rem; */
 }
 .dgn{
@@ -42,8 +43,8 @@ body{
     border-style: solid;
     border-color: #151313;
     position: absolute;
-    top: 30%;
-    left: 72%;
+    top: 0%;
+    right: 0%;
     border-radius: 20px;
     background:linear-gradient(to left,#414141,#000000);
     color: #cec022;
@@ -53,9 +54,8 @@ body{
 .dgn p{
     position: absolute;
     top: 45%;
-    left: -15%;
+    left: -20%;
     transform: rotate(90deg);
-    letter-spacing: 1px;
     font-size: 150%;
 }
 .input h2{
@@ -131,7 +131,7 @@ body{
 .button{
     position: absolute;
     top:65%;
-    left:38%;
+    left:35%;
     display: block;
     width: 80px;
     height: 35px;
@@ -146,8 +146,11 @@ body{
     display: block;
     color:white;
     position: absolute;
-    top: 76%;
-    left:48%;
+    top: 77%;
+    left:25%;
     font-size: 24px;
 
 }
+
+
+ 
